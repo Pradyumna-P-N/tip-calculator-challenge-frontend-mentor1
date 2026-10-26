@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link href="styles.css" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <header>
+    <div class="up">
+      <h1>SPLITTER</h1>
+    </div>
+  </header>
+  <main>
+    <div class="main-div">
+      <div class="mid1">
+        <h3 class="grey">Bill</h3>
+        <h2 class="l-grey"><input class="expenses" id="amount" type="number"/></h2>
+        <h5 class="empty"></h5>
+        <h3 class="grey disappear">Select tip %</h3>
+        <button class="btn">5%</button>
+        <button class="btn">10%</button>
+        <button class="btn" id="blue-bg">15%</button>
+        <button class="btn">25%</button>
+        <button class="btn">50%</button>
+        <button class="grey btn bg">Custom</button>
+        <h3 class="grey called">Enter your tip %</h3>
+        <h2 class="l-grey"><input class="people" id="custom" type="number"/></h2>
+        <h5 class="error"></h5>
+        <h3 class="grey">Number of People</h3>
+        <h2 class="l-grey"><input class="people" id="person" type="number"/></h2>
+        <h5 class="warning"></h5>
+      </div>
+      <div class="mid2">
+        <h3 class="white" id="tip">Tip Amount</h3>
+        <h4 class="grey" id="per">/ person</h4>
+        <h2 id="up" class="mid2-blue"></h2>
+        <h3 id="upper" class="mid2-blue"></h3>
+        <h3 class="white" id="total">Total</h3>
+        <h4 class="grey" id="h4">/ person</h4>
+        <h2 id="down" class="mid2-blue"></h2>
+        <h3 id="lower" class="mid2-blue"></h3>
+        <button class="mid2-blue1">Reset</button>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. </p>
+    <p>Coded by <a href="#">Pradyumna P Nadig</a>.</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js" charset="UTF-8"></script>
+
+</body>
+</html>
